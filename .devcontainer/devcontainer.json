@@ -1,0 +1,16 @@
+{
+  "name": "LMDE with Native Postgres",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "cweijan.vscode-postgresql-client2"
+      ]
+    }
+  },
+  // Now that permissions are fixed, this command will run immediately 
+  // without asking for a password.
+  "postStartCommand": "sudo service postgresql start"
+}
