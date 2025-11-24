@@ -45,6 +45,7 @@ VALUES
 ('lapin', 'M', '2020-07-01', 'Jannot', 2);
 
 -- suite du cours
+
 -- INSERT INTO Animal (espece, naissance, nom, ProId)
 -- VALUES
 -- ('poisson', '2019-10-01', 'Nemo', 2);
