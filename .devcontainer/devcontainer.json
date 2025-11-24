@@ -1,5 +1,5 @@
 {
-  "name": "LMDE with Native Postgres",
+  "name": "Debian with Native Postgres",
   "build": {
     "dockerfile": "Dockerfile"
   },

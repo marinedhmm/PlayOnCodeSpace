@@ -3,7 +3,7 @@ FROM mcr.microsoft.com/devcontainers/base:bookworm
 # 1. Install PostgreSQL AND git-lfs
 # We use noninteractive to avoid prompts during build
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
-    && apt-get -y install --no-install-recommends postgresql postgresql-contrib git-lfs
+    && apt-get -y install --no-install-recommends postgresql postgresql-contrib git-lfs asciinema 
 
 # 2. SUDO : Ensure the 'vscode' user can use sudo without a password
 # This prevents the "[sudo] password for vscode" error during startup
