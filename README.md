@@ -21,3 +21,5 @@
 
 > [!WARNING]
 > On peut préparer le mardown pour [jupyter](./ipynb/tuto.md)
+
+# Idéallement on lance le VE
