@@ -2,7 +2,7 @@
 ```bash
 sudo -i -u postgres psql
 ```
-- #### google
+- #### google : l'option -i de sudo
 *Sets the HOME directory: It switches the $HOME variable to the postgres user's home directory (usually /var/lib/postgresql).*
 
 - Si on veut enregistrer la session dans un fichier `/tmp/session.log`
@@ -20,4 +20,4 @@ sudo -i -u postgres psql -a
 exit
 ```
 
-- On peut aussi faire un casr avec asciinema
+- On peut aussi faire un cast avec asciinema
