@@ -1,0 +1,78 @@
+********* QUERY **********
+create database test;
+**************************
+
+CREATE DATABASE
+********* QUERY **********
+create table premiere(nom text primary key, prenom text);
+**************************
+
+CREATE TABLE
+********* QUERY **********
+insert into premiere values
+('nicolas', 'patrice'), ('duhem', 'aude');
+**************************
+
+INSERT 0 2
+********* QUERY **********
+select nom blase, prenom surblase from premiere;
+**************************
+
+  blase  | surblase 
+---------+----------
+ nicolas | patrice
+ duhem   | aude
+(2 rows)
+
+********* QUERY **********
+select prenom from premiere limit 1;
+**************************
+
+ prenom  
+---------
+ patrice
+(1 row)
+
+********* QUERY **********
+select prenom from premiere order by prenom;
+**************************
+
+ prenom  
+---------
+ aude
+ patrice
+(2 rows)
+
+********* QUERY **********
+select prenom from premiere order by prenom desc;
+**************************
+
+ prenom  
+---------
+ patrice
+ aude
+(2 rows)
+
+********* QUERY **********
+select prenom from premiere where 'a' in prenom;
+**************************
+
+********* QUERY **********
+select prenom from premiere where prenom like '%a%';
+**************************
+
+ prenom  
+---------
+ patrice
+ aude
+(2 rows)
+
+********* QUERY **********
+select prenom from premiere where prenom like '%t%';
+**************************
+
+ prenom  
+---------
+ patrice
+(1 row)
+
