@@ -20,6 +20,6 @@
 ---------------------
 
 > [!WARNING]
-> On peut préparer le mardown pour [jupyter](./ipynb/tuto.md)
+> On peut préparer le mardown pour [jupyter](./boulot/term/ipynb/tuto.md)
 
 # Idéallement on lance le VE
