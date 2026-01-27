@@ -1,3 +1,4 @@
+
 -- Dans PostgresSQL, \i /tmp/table.sql pour exécuter 
 -- Il faut préalablement copier le fichier /tmp/villesfrance.csv
 --suppression de ville si présente
